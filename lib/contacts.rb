@@ -19,6 +19,9 @@ def remove_strawberry(contacts)
     if name == "Freddy Mercury"
       info.each do |type, data|
         if type == :favorite_ice_cream_flavors
-          data.delete
-
+          data.delete("strawberry")
+        end
+      end
+    end
+  end
 end
